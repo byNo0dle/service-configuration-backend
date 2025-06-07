@@ -1,0 +1,12 @@
+noodle:
+  property: Noodle Profile Dev
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
